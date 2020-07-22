@@ -1,7 +1,7 @@
 # SplashFood
 
 <hr>
-INTRODUCTION
+## INTRODUCTION
 <br/>
 
 This project is based on Android application development. 
@@ -10,6 +10,9 @@ This project is based on Android application development.
 It comprises of source code of the application.
 The application is a food ordering service app quite popular in this era. 
 Customer can order food from vast variety of restaurants abd chooose menu according to their prefrence.
+<br/>
+### About The App
+SplashFood app is a food ordering app widely used these days. The app gas login, register and forget password pages easy to use , it has a drawer navigation bar to navigate to different pages such as favourites, history ,faq , profile and logout option. when the restaurant is chosen next page displays the menu of the restaurant which can be added to cart page and then the confirmation ok page is displayed.
 <br/>
 
 Screenshots of the samsung mobile app is given below:
