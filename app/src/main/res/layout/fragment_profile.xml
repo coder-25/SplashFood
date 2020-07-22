@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.fragment.ProfileFragment"
+    android:background="@drawable/best_food_background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/icon"/>
+
+    <TextView
+        android:id="@+id/proName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="9876545"
+        android:textSize="25sp"
+        android:textColor="@color/whiteClour"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/proMobile"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="9876545"
+        android:textSize="25sp"
+        android:textColor="@color/whiteClour"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/proEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="9876545"
+        android:textSize="25sp"
+        android:textColor="@color/whiteClour"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/proAddress"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="9876545"
+        android:textSize="25sp"
+        android:textColor="@color/whiteClour"
+        android:textAlignment="center"/>
+
+
+
+</LinearLayout>

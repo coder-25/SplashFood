@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:layout_marginBottom="2dp">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/ResNameHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rstaurant Name"
+            android:textColor="@color/res_name"
+            android:textStyle="bold"
+            android:layout_marginStart="15dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/ResDateHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:textColor="@color/res_name"
+            android:layout_toEndOf="@+id/ResNameHistory"
+            android:layout_marginStart="50dp"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerFoodHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"/>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="5" >
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:paddingTop="10dp"
+        android:src="@drawable/ic_bullet" />
+
+    <TextView
+        android:id="@+id/cartMenuNmae"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.3"
+        android:padding="10dp"
+        android:text="Ghee Cardita"
+        android:textStyle="bold"
+        android:textColor="#d81b60"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/cartMenuPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2"
+        android:padding="10dp"
+        android:text="Price"
+        android:textColor="#d81b60"
+        android:textSize="20sp" />
+
+</LinearLayout>

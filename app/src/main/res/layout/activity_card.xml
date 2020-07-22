@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.activity.CartActivity"
+    android:background="@color/colorPrimaryDark">
+    <TextView
+        android:id="@+id/txtorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/res_name"
+        android:padding="5dp"
+        android:text="@string/ordering_from"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtCartRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/res_name"
+        android:layout_toEndOf="@+id/txtorder"
+        android:padding="5dp"
+        android:text="ResName"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cartRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCartRes"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:id="@+id/cartProceed"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:text="PAYMENT"
+        android:background="@color/whiteClour"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"/>
+
+    <RelativeLayout
+        android:id="@+id/ok_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_check"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/check"
+            android:layout_centerHorizontal="true"
+            android:text="@string/order_paced"
+            android:textColor="@color/whiteClour"
+            android:textSize="25sp"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="Ok"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

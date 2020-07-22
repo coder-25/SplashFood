@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/resPriceSortIc"
+        android:title="@string/sort_price_increase"
+        android:icon="@drawable/ic_action_sort"
+        android:orderInCategory="100" />
+    <item
+        android:id="@+id/resPriceSortDc"
+        android:title="@string/sort_price_decreasing"
+        />
+    <item
+        android:id="@+id/resSortRating"
+        android:title="@string/sort_rating"
+        />
+
+
+</menu>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/best_food_background"
+    tools:context=".activity.activity.WelcomeSplashFoodActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:text="Enter the recieved OTP below"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtForOTP"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/whiteClour"
+        android:hint="@string/otp_4_characters"/>
+
+    <EditText
+        android:id="@+id/txtForPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/whiteClour"
+        android:hint="@string/new_password_min_4_characters"
+        />
+
+    <EditText
+        android:id="@+id/txtConForPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/whiteClour"
+        android:hint="@string/confirm_password"/>
+
+    <Button
+        android:id="@+id/bttnSubmit"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/whiteClour"
+        android:textAlignment="center"
+        android:text="@string/submit"
+        android:textSize="25sp"
+        android:padding="5dp"/>
+
+</LinearLayout>
